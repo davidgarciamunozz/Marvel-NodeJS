@@ -3,3 +3,7 @@ export {default as Hero} from './Hero/Hero.js';
 export {default as BannerCompose} from './BannerCompose/BannerCompose.js';
 export {default as ComicCard} from './ComicSection/ComicCard.js';
 export {default as ComicSection} from './ComicSection/ComicSection.js';
+export {default as Insider} from './Insider/Insider.js';
+export {default as Footer} from './Footer/Footer.js';
+export {default as MarvelNewsCard} from './MarvelNews/MarvelNews.js';
+export {default as VideoBanner} from './VideoBanner/VideoBanner.js';

@@ -4,18 +4,3 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
-
-#image-container {
-    
-}
-
-section{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-}
-article{
-    display: flex;
-    flex-direction: column;
-}

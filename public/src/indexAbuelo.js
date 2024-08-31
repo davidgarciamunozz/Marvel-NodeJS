@@ -32,6 +32,88 @@ class AppContainer extends HTMLElement {
                 buttontext="RELEASE CALENDAR">
             </banner-compose>
             <comic-section id="comicSection2"></comic-section>
+
+            <h1 style="padding-left:300px">THE LATEST</h1>
+            <div  style="display: flex;">
+            <div>
+            <marvel-news-card
+            content="300"
+            font="18"
+            size="300"
+            image="https://cdn.marvel.com/content/1x/m85_kv_card.png"
+            category="COMICS"
+            title="Marvel's 85th Anniversary: Marvel Comics Through the Decades"
+            days-ago="1 DAY AGO"
+            >
+            </marvel-news-card>
+            <marvel-news-card
+            content="300"
+            font="18"
+            size="300"
+            image="https://cdn.marvel.com/content/1x/dpool2024007_card.jpg"
+            category="COMICS"
+            title="Marvel's 85th Anniversary: Marvel Comics Through the Decades"
+            days-ago="12121 DAYS AGO"
+            >
+            </marvel-news-card>
+            <marvel-news-card
+            content="300"
+            font="18"
+            size="300"
+            image="https://cdn.marvel.com/content/1x/dpoolwolv_slipcase_card.jpg"
+            category="COMICS"
+            title="Marvel's 85th Anniversary: Marvel Comics Through the Decades"
+            days-ago="1 DAY AGO"
+            >
+            </marvel-news-card>
+            <marvel-news-card
+            content="300"
+            font="18"
+            size="300"
+            image="https://cdn.marvel.com/content/1x/m85_kv_card.png"
+            category="COMICS"
+            title="Marvel's 85th Anniversary: Marvel Comics Through the Decades"
+            days-ago="1 DAY AGO"
+            >
+            </div>
+
+            <div style="padding-left: 100px;">
+            <h2 style ="padding-left:270px">THE HYPE BOX</h2>
+            <marvel-news-card
+            content="200"
+            font="14"
+            size="100"
+            image="https://cdn.marvel.com/content/1x/m85_kv_card.png"
+            category="COMICS"
+            title="Marvel's 85th Anniversary: Marvel Comics Through the Decades"
+            days-ago="1 DAY AGO"
+            >
+            </marvel-news-card>
+            <marvel-news-card
+            content="200"
+            font="14"
+            size="100"
+            image="https://cdn.marvel.com/content/1x/dpool2024007_card.jpg"
+            category="COMICS"
+            title="Marvel's 85th Anniversary: Marvel Comics Through the Decades"
+            days-ago="12121 DAYS AGO"
+            >
+            </marvel-news-card>
+            <marvel-news-card
+            content="200"
+            font="14"
+            size="100"
+            image="https://cdn.marvel.com/content/1x/dpoolwolv_slipcase_card.jpg"
+            category="COMICS"
+            title="Marvel's 85th Anniversary: Marvel Comics Through the Decades"
+            days-ago="1 DAY AGO"
+            >
+            </div>
+            </div>
+            <video-banner></video-banner>
+            <insider-component></insider-component>
+            <footer-component></footer-component>
+        
         `;
     }
 
