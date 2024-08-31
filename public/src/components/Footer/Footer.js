@@ -32,6 +32,7 @@ class Footer extends HTMLElement {
                 font-size: .7rem;
                 padding: 40px 0;
                 color: gray;
+                margin:0;
             }
                
             </style>
